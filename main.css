@@ -1,0 +1,55 @@
+* {
+	font-family: "Emilys Candy", cursive;
+}
+
+body {
+	background-image: url("./imgs/8k-hogwarts-4k-burning-wallpaper-preview.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+.labels {
+	font-size: 15px;
+	color: beige;
+}
+
+#img {
+	width: 80px;
+	height: auto;
+}
+#info-nombre,
+#nombre,
+#caracteristicas {
+	color: rgb(66, 65, 65);
+}
+
+.oculta {
+	display: none;
+}
+
+.visible {
+	display: block;
+}
+
+li {
+	list-style: none;
+	font-size: smaller;
+}
+
+.negrita {
+	font-weight: bolder;
+}
+
+@media (min-width: 600px) {
+	.labels {
+		font-size: 30px;
+	}
+	#img {
+		width: 150px;
+		height: auto;
+	}
+	li {
+		font-size: larger;
+	}
+}
