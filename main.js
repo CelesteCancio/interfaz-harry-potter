@@ -1,7 +1,6 @@
 //npm i --save-dev @types/jquery
 /// <reference types="jquery" />
 
-const body = $("body");
 const btnBuscar = $("#btn-buscar");
 const numeroInput = $("#numero-input");
 //console.log(numeroInput);
